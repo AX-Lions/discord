@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, Linux, ARM64, bordo-discord]
+    runs-on: [self-hosted, Linux, X64, bordo-discord]
     timeout-minutes: 15
 
     # workflow_dispatch 에는 브랜치 제한이 없습니다.
